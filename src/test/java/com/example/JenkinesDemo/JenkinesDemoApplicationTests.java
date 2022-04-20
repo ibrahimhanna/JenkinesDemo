@@ -20,7 +20,7 @@ class JenkinesDemoApplicationTests {
 	  void printHello() {
 	   
 	  Hello he = new Hello();
-	    assertThat(he.hello()).isEqualTo("hello welcome to java");
+	    assertThat(he.hello()).isEqualTo("hello welcome to");
 	  }
 
 }
